@@ -1,0 +1,19 @@
+create a method inside Main:
+
+public class Main {
+  static void NISHANT() {
+    // code to be executed
+  }
+}
+
+Inside main, call the NISHANT() method:
+
+public class Main {
+  static void NISHANT() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    NISHANT();
+  }
+}
