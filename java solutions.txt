@@ -1,0 +1,27 @@
+                                                 Classes, Objects, and Methods
+Class Declaration:-
+class name p1 ...pn =object
+      :
+    instance variables
+      :
+    methods
+      :
+  end
+class Addition 
+{ 
+ 
+   int a = 10; 
+   int b = 20; 
+System.out.println(a + b); 
+
+   void add()
+   { 
+  // Write logic of adding two number and print it on the console. 
+     System.out.println(a+b); 
+   }
+public static void main(String[] args)
+{
+ Addition a = new Addition(); // Object creation.
+ a.add(); // Calling method.
+ }
+}
