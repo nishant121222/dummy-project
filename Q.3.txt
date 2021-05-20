@@ -1,0 +1,38 @@
+package JavaCommentsDemo;
+//Program to illustrate comments in Java
+/**
+* <h1>Find sum of two numbers!</h1>
+* FindSum program finds the sum
+*and gives the output on
+*the screen.
+*
+* @author  dataflair
+*/
+public class FindSum 
+{
+  /**
+      * Method to find average
+      * @param numA- This is the first parameter to calculateSum method
+      * @param numB - This is the second parameter to calculateSum method
+      */
+  int numA;
+  int numB;
+FindSum(int numA,int numB)
+{
+  this.numA=numA;
+  this.numB=numB;
+}
+void calculateSum()
+{
+  System.out.println("Sum of two numbers is "+(numA+numB));
+}
+static class Test
+{
+  public static void main(String args[])
+  {
+    FindSum obj=new FindSum(10,20);
+    obj.calculateSum();
+  }
+}
+}
+Recommended Reading – Pri
